@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import PreFooter from './components/PreFooter';
 import ScrollToTop from './components/ScrollToTop';
+import CookieBanner from './components/CookieBanner';
 
 // Lazy-loaded routes
 const RoutesPage = lazy(() => import('./pages/RoutesPage'));
@@ -49,6 +50,9 @@ function App() {
             </div>
           </div>
         </footer>
+
+        {/* Global Cookie Consent Banner */}
+        <CookieBanner />
       </div>
     </BrowserRouter>
   );
