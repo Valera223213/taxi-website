@@ -1,0 +1,121 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (159,23)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79782757907'>+7 (978) 275-79-07 />
+Юг-Ок
+[1] (757,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79782757907' />
+	[2] (762,23)<span >WhatsApp />
+[3] (820,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/+79782757907' />
+	[4] (826,23)<span >Telegram />
+[5] (873,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c' />
+	[6] (878,23)<span >Max />
+[7] (155,90)<div  />
+	[8] (173,92)<div  />
+		[9] (173,92)<span >Юг-Ок />
+[10] (549,90)<a class='hover:text-accent transition-colors' href='/'>Главная />
+[11] (604,90)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+[12] (665,90)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+[13] (728,90)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+[14] (789,90)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+[15] (863,90)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+Выберите подходящий класс авто для вашей поездки. Все фотографии автомобилей можно будет заменить на ваши реальные снимки.
+[16] (171,366)<button class='absolute left-4 lg:left-8 xl:left-[calc((100vw-1280px)/2-1rem)] top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-primary-light border border-white/10 text-slate-300 rounded-full flex justify-center items-center shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:bg-accent hover:border-accent hover:text-white transition-all opacity-0 group-hover:opacity-100 disabled:opacity-0' />
+[17] (829,366)<button class='absolute right-4 lg:right-8 xl:right-[calc((100vw-1280px)/2-1rem)] top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-primary-light border border-white/10 text-slate-300 rounded-full flex justify-center items-center shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:bg-accent hover:border-accent hover:text-white transition-all opacity-0 group-hover:opacity-100 disabled:opacity-0' />
+[18] (500,366)<div class='pb-12 pt-4 cursor-grab active:cursor-grabbing flex overflow-x-auto scrollbar-hide snap-x snap-mandatory px-4 lg:px-8 xl:px-[calc((100vw-1280px)/2+1rem)]' scrollable='true' />
+	Стандарт
+	[19] (83,461)<div  />
+		[20] (83,374)<h3 >VW Polo />
+		[21] (83,491)<div  />
+			[22] (83,438)<div  />
+				[23] (52,438)<div  />
+					[24] (58,438)<span >Кондиционер />
+				[25] (140,438)<span >Да />
+			[26] (83,491)<div  />
+				[27] (37,491)<div  />
+					[28] (44,491)<span >Мест />
+				[29] (142,491)<span >4 />
+			[30] (83,544)<div  />
+				[31] (39,544)<div  />
+					[32] (45,544)<span >Багаж />
+				[33] (142,544)<span >3 />
+	Стандарт
+	[34] (263,461)<div  />
+		[35] (263,374)<h3 >Kia Rio />
+		[36] (263,491)<div  />
+			[37] (263,438)<div  />
+				[38] (231,438)<div  />
+					[39] (238,438)<span >Кондиционер />
+				[40] (319,438)<span >Да />
+			[41] (263,491)<div  />
+				[42] (216,491)<div  />
+					[43] (223,491)<span >Мест />
+				[44] (322,491)<span >4 />
+			[45] (263,544)<div  />
+				[46] (218,544)<div  />
+					[47] (225,544)<span >Багаж />
+				[48] (322,544)<span >3 />
+	Стандарт
+	[49] (442,461)<div  />
+		[50] (442,374)<h3 >Lada Vesta />
+		[51] (442,491)<div  />
+			[52] (442,438)<div  />
+				[53] (411,438)<div  />
+					[54] (417,438)<span >Кондиционер />
+				[55] (498,438)<span >Да />
+			[56] (442,491)<div  />
+				[57] (396,491)<div  />
+					[58] (402,491)<span >Мест />
+				[59] (501,491)<span >4 />
+			[60] (442,544)<div  />
+				[61] (397,544)<div  />
+					[62] (404,544)<span >Багаж />
+				[63] (501,544)<span >3 />
+	Стандарт
+	[64] (621,461)<div  />
+		[65] (621,374)<h3 >Hyundai Solaris />
+		[66] (621,491)<div  />
+			[67] (621,438)<div  />
+				[68] (590,438)<div  />
+					[69] (596,438)<span >Кондиционер />
+				[70] (677,438)<span >Да />
+			[71] (621,491)<div  />
+				[72] (575,491)<div  />
+					[73] (581,491)<span >Мест />
+				[74] (680,491)<span >4 />
+			[75] (621,544)<div  />
+				[76] (577,544)<div  />
+					[77] (583,544)<span >Багаж />
+				[78] (680,544)<span >3 />
+	Комфорт
+	[79] (800,461)<div  />
+		[80] (800,374)<h3 >Skoda Octavia />
+		[81] (800,491)<div  />
+			[82] (800,438)<div  />
+				[83] (769,438)<div  />
+					[84] (775,438)<span >Кондиционер />
+				[85] (856,438)<span >Да />
+			[86] (800,491)<div  />
+				[87] (754,491)<div  />
+					[88] (760,491)<span >Мест />
+				[89] (859,491)<span >4 />
+			[90] (800,544)<div  />
+				[91] (756,544)<div  />
+					[92] (762,544)<span >Багаж />
+				[93] (859,544)<span >4 />
+	Комфорт
+	[94] (979,461)<div  />
+		[95] (979,374)<h3 >Mazda 6 />
+		[96] (979,491)<div  />
+			[97] (979,438)<div  />
+				[98] (948,438)<div  />
+					[99] (954,438)<span >Кондиционер />
+			[100] (979,491)<div  />
+				[101] (933,491)<div  />
+					[102] (939,491)<span >Мест />
+			[103] (979,544)<div  />
+				[104] (935,544)<div  />
+					[105] (941,544)<span >Багаж />
+Гарантии спокойной поездки
+
+</current_dom>

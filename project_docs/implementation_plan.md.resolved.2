@@ -1,0 +1,41 @@
+# Multi-Page Setup and Header Implementation Plan
+
+The user requested two major additions:
+1. **Header with Contacts**: A top navigation bar with sections (Главная, Маршруты, Наши авто, О компании, Контакты) and active messenger buttons (WhatsApp, Telegram, Max).
+2. **SEO Routes Page**: A dedicated "Маршруты" (Routes) page displaying cards for different city-to-city trips (like the competitor screenshot) to help with SEO. Additionally, a preview of these routes should animate on the main landing page.
+
+To achieve this, we need to transition the app from a single-page scrolling site to a multi-page app using React Router.
+
+## Proposed Changes
+
+### 1. Setup React Router
+- **Install**: `npm install react-router-dom`
+- **Modify [App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx)**: Wrap the application in `BrowserRouter`. Define routes for `/` (Home) and `/routes` (Маршруты).
+
+### 2. [NEW] `src/components/Header.jsx`
+- **Top Bar**:
+  - Buttons for WhatsApp (`https://wa.me/...`), Telegram (`https://t.me/...`), and Max. Since "Max" isn't a standard global messenger (it might be a specific local chat widget or a link to a specific profile), I will use a generic message icon and link it to a placeholder `#` for now, styling it alongside WA and TG.
+- **Main Nav**:
+  - Links: Главная (`/`), Маршруты (`/routes`), Наши авто (`/#fleet`), О компании (`/#about`), Контакты (`/#contacts`).
+  - *Note: For links that point to sections on the homepage while the user is on the `/routes` page, we will use HashLinks or programmatic scrolling.*
+
+### 3. [NEW] `src/pages/Home.jsx`
+- Move the current contents of [App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx) (Hero, Trust, Services, Masters, Reviews, CtaForm, Footer) into this new page component.
+- Add `id` attributes to sections (`id="fleet"`, `id="about"`, `id="contacts"`) so the header links can scroll perfectly to them.
+
+### 4. [NEW] `src/components/RoutesPreview.jsx` (On Homepage)
+- Create a new section below Hero or Trust on the homepage.
+- Display a horizontal scrolling or animated marquee of popular route cards (e.g., "Симферополь - Ялта", "Севастополь - Аэропорт").
+- Include a "Смотреть все маршруты" button linking to the `/routes` page.
+
+### 5. [NEW] `src/pages/RoutesPage.jsx`
+- A dedicated SEO-friendly page for routes.
+- Includes the `Header`.
+- A grid of route cards. Each card will have a thumbnail image, route name, and "Заказать" button. (This matches the competitor screenshot structure).
+- Includes the `Footer`.
+
+## Verification Plan
+1. Start dev server.
+2. Verify React Router navigation works (Home <-> Routes).
+3. Test Header links: clicking "Контакты" scrolls to the form; clicking "WhatsApp" opens a new tab.
+4. Review the animated RoutesPreview on the homepage and the dedicated Routes grid page.

@@ -1,0 +1,12 @@
+# Dark Theme Restoration Tasks
+
+- [x] Revert [tailwind.config.js](file:///c:/Users/baben/Desktop/TAXI/tailwind.config.js) to dark theme colors.
+- [x] Revert [App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx) root background and text colors to dark theme.
+- [x] Revert [Header.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Header.jsx) to dark theme styling (text, background, mobile menu).
+- [x] Revert [Hero.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Hero.jsx): Restore dark overlay and dark mode booking forms.
+- [x] Revert [Trust.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Trust.jsx) and [RoutesPreview.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/RoutesPreview.jsx) back to dark backgrounds.
+- [x] Revert [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx) (Fleet) carousel cards back to dark UI.
+- [x] Revert [Masters.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Masters.jsx) and [Reviews.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Reviews.jsx) to dark backgrounds and light text.
+- [x] Revert [CtaForm.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/CtaForm.jsx) to original dark design.
+- [x] Update Hero section buttons: green background and update text to `Зафиксировать цену и авто`.
+- [x] Update phone number to `+79782757907` and configure WhatsApp, Telegram, and Max links to use this number.

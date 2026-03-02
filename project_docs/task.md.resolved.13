@@ -1,0 +1,7 @@
+# Fleet Carousel Implementation Tasks
+
+- [x] Define the new `cars` data array with 8-10 specific models across classes (Эконом, Стандарт, Комфорт, Бизнес, Минивэн) with specs (AC, Seats, Baggage).
+- [x] Build the `CarCard` component matching the required data structure (Top badge, Image, Title, Specs footer block).
+- [x] Implement the horizontal scroll container in [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx).
+- [x] Add interactive Left/Right scrolling logic and buttons to the carousel.
+- [x] Apply dark premium styling to the new cards to match the site's aesthetic.

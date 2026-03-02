@@ -1,0 +1,45 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (161,22)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79783909880'>+7 (978) 390-98-80 />
+Юг-Ок
+[1] (757,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79783909880' />
+	[2] (762,22)<span >WhatsApp />
+[3] (820,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/taxi_krym' />
+	[4] (826,22)<span >Telegram />
+[5] (873,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='#' />
+	[6] (878,22)<span >Max />
+[7] (155,84)<div  />
+	[8] (173,86)<div  />
+		[9] (173,86)<span >Юг-Ок />
+[10] (549,84)<a class='hover:text-accent transition-colors' href='/'>Главная />
+[11] (604,84)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+[12] (665,84)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+[13] (728,84)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+[14] (789,84)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+[15] (863,84)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+Забронируйте автомобиль и забудьте о проблемах с дорогой.
+Оставьте заявку, и мы закрепим за вами конкретный автомобиль выбранного класса. Цена останется неизменной вне зависимости от погоды или пробок.
+✓
+Четкая цена до посадки
+✓
+Водитель встретит с табличкой
+[16] (633,237)<label class='block text-sm font-medium text-slate-300 mb-2'>Ваше имя />
+[17] (633,280)<input class='block w-full pl-11 pr-4 py-3 bg-[#0a0f1d] border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all' placeholder='Как к вам обращаться' />
+[18] (633,338)<label class='block text-sm font-medium text-slate-300 mb-2'>Номер телефона />
+[19] (633,381)<input class='block w-full pl-11 pr-4 py-3 bg-[#0a0f1d] border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all' placeholder='+7 (___) ___-__-__' />
+[20] (582,440)<label class='block text-sm font-medium text-slate-300 mb-2'>Класс авто />
+[21] (582,482)<select class='block w-full pl-11 pr-8 py-3 bg-[#0a0f1d] border border-white/10 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent appearance-none transition-all' />
+[22] (685,440)<label class='block text-sm font-medium text-slate-300 mb-2'>Дата поездки />
+[23] (685,483)<input class='block w-full pl-11 pr-4 py-3 bg-[#0a0f1d] border border-white/10 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all' />
+[24] (633,560)<button class='w-full mt-8 bg-accent hover:bg-accent-hover text-white font-bold py-4 px-8 rounded-xl transition-all shadow-lg hover:shadow-accent/50 group flex items-center justify-center gap-2'>Оставить заявку />
+Нажимая на кнопку, вы даете согласие на обработку персональных данных.
+©
+2026
+Юг-Ок. Все права защищены.
+Вся представленная на сайте информация, касающаяся товаров, работ и услуг, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 Гражданского Кодекса РФ. Все цены носят информационный характер и являются ориентировочными.
+[25] (715,938)<a class='hover:text-accent' href='#'>Политика конфиденциальности />
+[26] (836,938)<a class='hover:text-accent' href='#'>Пользовательское соглашение />
+
+</current_dom>

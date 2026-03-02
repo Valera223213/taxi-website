@@ -1,0 +1,30 @@
+# Fleet Section Update Plan
+
+The user requested:
+1. Add "Эконом" (Economy) and "Стандарт" (Standard) classes to the "Наши авто" (Fleet/Services) section.
+2. Implement image sliders (carousels) on each card allowing the user to swipe/click left and right to view multiple pictures of the cars in that class.
+
+## Proposed Changes
+
+### [MODIFY] [src/components/Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx)
+1. **Update Data Structure**:
+   - Change the `image` string property in the `services` array to an `images` array containing 3-4 URLs for each class.
+   - Add two new entries to the `services` array:
+     - **Эконом**: (Pain: Старая машина без кондиционера, Result: Опрятное авто B-класса с рабочим кондиционером).
+     - **Стандарт**: (Pain: Тесный салон и грязные сиденья, Result: Просторный салон C-класса, идеальная чистота).
+2. **Create Carousel Component**:
+   - Inside or alongside [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx), create an interactive carousel.
+   - Add Left/Right chevron buttons (from `lucide-react`) over the image container.
+   - Use React state (`currentIndex`) for each card to track which image is currently displayed. (Since there are multiple cards, the carousel logic should ideally be extracted into a sub-component `<ServiceCard />`).
+3. **Styling**:
+   - Ensure the carousel controls look premium (perhaps circular glassmorphism buttons, visible on hover).
+   - Add dot indicators at the bottom of the image for navigation context.
+
+### [MODIFY] [src/index.css](file:///c:/Users/baben/Desktop/TAXI/src/index.css) or Tailwind config
+- The grid layout might need to accommodate 5 cards instead of 3. I will change the grid to `grid-cols-1 md:grid-cols-2 lg:grid-cols-3` which will automatically wrap the 4th and 5th cards nicely to the next row, centering them if possible or aligning left.
+
+## Verification Plan
+1. Start dev server.
+2. Scroll to the "Наши авто" section.
+3. Verify that 5 cards are now displayed.
+4. Test the left/right arrows on each card to ensure the images slide correctly.

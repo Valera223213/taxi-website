@@ -1,0 +1,28 @@
+# Fleet Carousel Redesign Plan
+
+The user requested a complete redesign of the "Наши авто" (Fleet/Services) section. Instead of a grid of 5 large cards detailing the "pains" and "results", they want a comprehensive horizontal carousel of specific car models (e.g., Lada Granta, Renault Logan, Kia Rio) categorized by class (Эконом, Стандарт, etc.), matching the provided screenshot.
+
+## Proposed Changes
+
+### [MODIFY] [src/components/Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx)
+1. **Change Data Structure**:
+   - Replace the conceptual `services` array with a detailed `cars` array containing specific car models.
+   - Example structure for a car: `{ id: 1, class: "Эконом", name: "Лада Гранта", ac: "Да", seats: 3, baggage: 2, image: "url_to_isolated_car_image" }`.
+   - I will populate this with 8-10 realistic examples across the 5 classes (Эконом, Стандарт, Комфорт, Бизнес, Минивэн).
+   - Use images with transparent/clean backgrounds (or styled to look like studio shots) to match the crisp look in the screenshot.
+2. **Implement Custom Horizontal Carousel**:
+   - Create a horizontal scrolling container (like the [RoutesPreview](file:///c:/Users/baben/Desktop/TAXI/src/components/RoutesPreview.jsx#12-56) component) or a step-by-step slider using React state (`scrollPosition`).
+   - The design will feature Left/Right navigation buttons docked to the sides of the carousel container (as seen in the screenshot where the buttons overlay the edges).
+3. **Card Styling**:
+   - Match the screenshot's data-dense but clean aesthetic:
+     - Top badge with the Class name (e.g., in yellow/accent).
+     - Centered crisp car image.
+     - Car model name below the image.
+     - A dark gray footer block containing specs: "Кондиционер: Да", "Мест: X", "Багаж: Y".
+   - Restyle to fit our dark premium theme (e.g., Dark surface background, accent colored top badge, subtle borders) instead of the plain white/gray theme from the screenshot, ensuring it looks cohesive with the rest of the site.
+
+## Verification Plan
+1. Start dev server.
+2. Verify the new carousel renders cleanly on desktop and mobile.
+3. Test that clicking the Left/Right buttons scrolls the car list correctly.
+4. Ensure the styling looks premium but conveys all the specific technical data requested (AC, Seats, Baggage).

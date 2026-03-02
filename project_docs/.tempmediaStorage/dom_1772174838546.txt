@@ -1,0 +1,73 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (159,23)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79782757907'>+7 (978) 275-79-07 />
+Юг-Ок
+[1] (757,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79782757907' />
+	[2] (762,23)<span >WhatsApp />
+[3] (820,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/+79782757907' />
+	[4] (826,23)<span >Telegram />
+[5] (873,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c' />
+	[6] (878,23)<span >Max />
+[7] (155,90)<div  />
+	[8] (173,92)<div  />
+		[9] (173,92)<span >Юг-Ок />
+[10] (549,90)<a class='hover:text-accent transition-colors' href='/'>Главная />
+[11] (604,90)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+[12] (665,90)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+[13] (728,90)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+[14] (789,90)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+[15] (863,90)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+Междугороднее такси Крыма и Юга России
+Цена не изменится.
+Машина приедет.
+Гарантируем.
+Фиксированный тариф по Крыму и Югу России на иномарках не старше 7 лет. Данные водителя за 24 часа, встреча с табличкой и пустой багажник. В салоне — только климат-контроль и тишина.
+Расчет и заказ такси
+[16] (648,284)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide'>Откуда
+* />
+	*
+[17] (648,321)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all placeholder-slate-500' placeholder='Например: Аэропорт' />
+[18] (768,284)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide'>Куда
+* />
+	*
+[19] (768,321)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all placeholder-slate-500' placeholder='Например: Ялта' />
+[20] (648,371)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide'>Дата подачи
+* />
+	*
+[21] (648,409)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all' />
+[22] (768,371)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide'>Класс авто
+* />
+	*
+[23] (768,408)<select class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all appearance-none' />
+[24] (628,476)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Ваше имя' />
+[25] (708,476)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Телефон *' />
+[26] (789,476)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Email' />
+[27] (708,554)<textarea class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500 resize-none' placeholder='Комментарий (рейс, количество пассажиров, детские кресла)' />
+[28] (596,634)<input class='mt-1 shrink-0 accent-accent' id='agree' />
+[29] (714,637)<label class='text-[11px] text-slate-400 leading-tight'>Нажимая на кнопку, я подтверждаю, что ознакомлен и согласен с условиями
+и
+. />
+	[30] (647,644)<a class='text-accent hover:underline' href='#'>политики конфиденциальности />
+	[31] (744,644)<a class='text-accent hover:underline' href='#'>пользовательским соглашением />
+[32] (708,701)<button class='w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl transition-colors shadow-[0_0_20px_-5px_rgba(5,150,105,0.5)] mt-4 text-lg tracking-wide uppercase flex items-center justify-center gap-3'>Зафиксировать цену и авто />
+Популярные направления
+Симферополь - Ялта
+•
+Аэропорт - Севастополь
+•
+Ялта - Алушта
+[33] (599,843)<span >• />
+[34] (657,843)<div  />
+	[35] (656,843)<span >Симферополь - Евпатория />
+	[36] (712,843)<span >• />
+[37] (757,843)<div  />
+	[38] (755,843)<span >Севастополь - Ялта />
+	[39] (799,843)<span >• />
+Алушта - Аэропорт
+•
+Евпатория - Симферополь
+•
+
+</current_dom>

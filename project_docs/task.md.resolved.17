@@ -1,0 +1,10 @@
+# Light Theme Implementation Tasks
+
+- [x] Update [tailwind.config.js](file:///c:/Users/baben/Desktop/TAXI/tailwind.config.js) with new light theme color palette (primary bg, surface bg, slate/text colors).
+- [x] Refactor [App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx) root background and text colors.
+- [x] Update [Header.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Header.jsx) to have a light transparent background, dark text/logo, and adjusted hover states.
+- [x] Redesign [Hero.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Hero.jsx): Adjust background overlay, change text to dark, update form glassmorphism for light context.
+- [x] Update [Trust.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Trust.jsx) and [RoutesPreview.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/RoutesPreview.jsx) cards and backgrounds to light variants. (Trust done)
+- [x] Adjust [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx) (Fleet) carousel cards for light UI (white cards, dark text, subtle shadows).
+- [x] Refactor [Masters.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Masters.jsx) and [Reviews.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Reviews.jsx) to light backgrounds and appropriate text contrast.
+- [x] Update [CtaForm.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/CtaForm.jsx) inputs/labels to dark mode equivalents for light background.

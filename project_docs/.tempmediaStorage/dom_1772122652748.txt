@@ -1,0 +1,106 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (159,23)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79782757907'>+7 (978) 275-79-07 />
+Юг-Ок
+[1] (757,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79782757907' />
+	[2] (762,23)<span >WhatsApp />
+[3] (820,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/+79782757907' />
+	[4] (826,23)<span >Telegram />
+[5] (873,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c' />
+	[6] (878,23)<span >Max />
+[7] (155,90)<div  />
+	[8] (173,92)<div  />
+		[9] (173,92)<span >Юг-Ок />
+[10] (549,90)<a class='hover:text-accent transition-colors' href='/'>Главная />
+[11] (604,90)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+[12] (665,90)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+[13] (728,90)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+[14] (789,90)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+[15] (863,90)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+[16] (500,49)<div class='pb-12 pt-4 cursor-grab active:cursor-grabbing flex overflow-x-auto scrollbar-hide snap-x snap-mandatory px-4 lg:px-8 xl:px-[calc((100vw-1280px)/2+1rem)]' scrollable='true' />
+	[17] (83,144)<div >Лада Гранта />
+		Лада Гранта
+		[18] (83,174)<div  />
+			Кондиционер
+			Да
+			[19] (83,174)<div  />
+				[20] (37,174)<div  />
+					[21] (44,174)<span >Мест />
+				[22] (142,174)<span >3 />
+			[23] (83,226)<div  />
+				[24] (39,226)<div  />
+					[25] (45,226)<span >Багаж />
+				[26] (143,226)<span >2 />
+	[27] (263,144)<div >Renault Logan />
+		Renault Logan
+		[28] (263,174)<div  />
+			Кондиционер
+			Да
+			[29] (263,174)<div  />
+				[30] (216,174)<div  />
+					[31] (223,174)<span >Мест />
+				[32] (322,174)<span >3 />
+			[33] (263,226)<div  />
+				[34] (218,226)<div  />
+					[35] (225,226)<span >Багаж />
+				[36] (322,226)<span >2 />
+	[37] (442,144)<div >Лада Приора />
+		Лада Приора
+		[38] (442,174)<div  />
+			Кондиционер
+			Да
+			[39] (442,174)<div  />
+				[40] (396,174)<div  />
+					[41] (402,174)<span >Мест />
+				[42] (501,174)<span >3 />
+			[43] (442,226)<div  />
+				[44] (397,226)<div  />
+					[45] (404,226)<span >Багаж />
+				[46] (501,226)<span >2 />
+	[47] (621,144)<div >Chevrolet Lanos />
+		Chevrolet Lanos
+		[48] (621,174)<div  />
+			Кондиционер
+			Да
+			[49] (621,174)<div  />
+				[50] (575,174)<div  />
+					[51] (581,174)<span >Мест />
+				[52] (680,174)<span >3 />
+			[53] (621,226)<div  />
+				[54] (577,226)<div  />
+					[55] (583,226)<span >Багаж />
+				[56] (680,226)<span >2 />
+	[57] (800,144)<div >VW Polo />
+		VW Polo
+		[58] (800,174)<div  />
+			Кондиционер
+			Да
+			[59] (800,174)<div  />
+				[60] (754,174)<div  />
+					[61] (760,174)<span >Мест />
+				[62] (859,174)<span >4 />
+			[63] (800,226)<div  />
+				[64] (756,226)<div  />
+					[65] (762,226)<span >Багаж />
+				[66] (859,226)<span >3 />
+	[67] (979,144)<div >Kia Rio />
+		Kia Rio
+		[68] (979,174)<div  />
+			Кондиционер
+			[69] (979,174)<div  />
+				[70] (933,174)<div  />
+					[71] (939,174)<span >Мест />
+			[72] (979,226)<div  />
+				[73] (935,226)<div  />
+					[74] (941,226)<span >Багаж />
+Гарантии спокойной поездки
+100% подача авто
+Если мы подтвердили заказ — машина будет у вашего выхода. Мы не отменяем поездки ради более выгодных заказов.
+За 24 часа до выезда
+Вы получаете SMS с прямым номером водителя, маркой и госномером авто. Никакой неопределенности в день вылета.
+0 ₽ за ожидание
+Мы сами отслеживаем задержки рейсов и поездов. Водитель будет ждать вас столько, сколько нужно, без доплат.
+
+</current_dom>

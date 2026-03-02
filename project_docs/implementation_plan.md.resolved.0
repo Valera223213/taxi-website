@@ -1,0 +1,50 @@
+# Create Premium Landing Page for Taxi Service
+
+This plan outlines the steps to build a premium, modern landing page for a taxi/transfer service in Crimea, based on the provided copy and requirements, using React and Tailwind CSS. The design will feature an elegant dark theme with gold accents, utilizing modern typography and subtle animations.
+
+## Proposed Changes
+
+### Setup Project
+- Initialize a React app using Vite in the `c:\Users\baben\Desktop\TAXI` directory.
+- Install Tailwind CSS, PostCSS, Autoprefixer, `lucide-react` (for premium icons), and `framer-motion` (for elegant smooth animations).
+- Configure `tailwind.config.js` with the premium color palette (Dark backgrounds, light text, gold/amber accents) and custom fonts (elegant serif for headings, clean sans-serif for body).
+
+### Component Development
+I will build the following 6 sections as separate React components for maintainability, and then assemble them in `App.jsx`:
+
+#### [NEW] `src/components/Hero.jsx`
+- Main headline and description.
+- CTA button: "Зафиксировать цену и автомобиль".
+- Background image of a premium car on a scenic road with a dark overlay.
+
+#### [NEW] `src/components/Trust.jsx`
+- 3 key facts (100% подача, смс за 24 часа, 0 ₽ за ожидание) presented with elegant icons and layout.
+
+#### [NEW] `src/components/Services.jsx`
+- Cards for "Семейный трансфер", "Бизнес-поездка", "Групповой выезд".
+- Each card will clearly contrast the "Pain" (Страх) vs the "Result" (Результат).
+
+#### [NEW] `src/components/Masters.jsx`
+- Driver profiles (Алексей, Дмитрий, Михаил) highlighting their specific expertise.
+- Premium styling with avatars or abstract driver icons, emphasizing trust and professionalism.
+
+#### [NEW] `src/components/Reviews.jsx`
+- Testimonials formatted in a clean, readable style resembling Yandex.Maps reviews, featuring a star rating component.
+
+#### [NEW] `src/components/CtaForm.jsx`
+- Final lead-capture form.
+- Headline, persuasive text, input fields (Name, Phone, Class selector), and a submit button.
+
+#### [MODIFY] `src/App.jsx`
+- Assemble all components into a cohesive, fluid single-page application.
+- Ensure 100% mobile responsiveness at every section.
+
+## Verification Plan
+
+### Automated Tests
+- Since this is a UI-heavy static landing page, exact automated unit tests are mostly overkill, but I will ensure Vite builds successfully (`npm run build`).
+
+### Manual Verification
+- Run `npm run dev`.
+- I will verify the site visually using the Chrome tool or verify the output structure.
+- The user can open the local server in their browser to review the aesthetic quality, responsiveness on mobile, and functionality of the interactive elements.

@@ -1,0 +1,14 @@
+# Taxi Landing Page Implementation Tasks
+
+- [ ] Clear existing files in `TAXI` to allow Vite initialization (or init in a subfolder and move contents).
+- [ ] Initialize Vite + React project.
+- [ ] Install dependencies (`tailwindcss`, `lucide-react`, `framer-motion`).
+- [ ] Setup Tailwind configuration (colors, fonts).
+- [ ] Create `Hero.jsx` section.
+- [ ] Create `Trust.jsx` section.
+- [ ] Create `Services.jsx` section.
+- [ ] Create `Masters.jsx` section.
+- [ ] Create `Reviews.jsx` section.
+- [ ] Create `CtaForm.jsx` section.
+- [ ] Assemble `App.jsx` and styling in `index.css`.
+- [ ] Verify build and design responsiveness.

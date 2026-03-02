@@ -1,0 +1,36 @@
+# Multi-Page Setup, Header, & Booking Form Plan
+
+Based on the new requirements, we will expand the application into a multi-page routing structure, add a comprehensive header, animate popular routes on the homepage, and integrate a detailed booking form right on the first screen.
+
+## Proposed Changes
+
+### 1. Routing setup
+- Install `react-router-dom`.
+- Set up `BrowserRouter` in [App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx) with routes for `/` (Home) and `/routes` (Маршруты).
+
+### 2. [NEW] `src/components/Header.jsx`
+- **Top Bar**: Buttons for WhatsApp (`wa.me`), Telegram (`t.me`), and Max (placeholder `#`), alongside a clickable phone number.
+- **Main Navigation**: Links to Главная (`/`), Маршруты (`/routes`), Наши авто (`/#fleet`), О компании (`/#about`), Контакты (`/#contacts`). Will use scroll-to-element logic for hash links.
+
+### 3. [MODIFY] [src/components/Hero.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Hero.jsx) & [NEW] Booking Form
+- Update the Hero section to include the requested booking form (as seen in the screenshot).
+- **Form Fields**: От куда (dropdown/text), Куда (dropdown/text), Дата подачи, Класс авто (dropdown), Ваше имя, Телефон, Email, Комментарий (textarea), Agreement checkbox, and a large "ЗАКАЗАТЬ" button.
+- The form will be styled elegantly to match our dark premium theme (perhaps as a glassmorphism card over the dark car background).
+
+### 4. [NEW] `src/components/RoutesPreview.jsx`
+- A new section on the homepage (`/`) below the Hero or Trust block.
+- Will feature an animated, continuously scrolling marquee (or a styled slider) displaying "popular routes" cards (e.g., Симферополь - Ялта) to catch the user's eye, with a button to view all routes.
+
+### 5. [NEW] `src/pages/RoutesPage.jsx`
+- A dedicated SEO-friendly page at `/routes`.
+- Will feature a clean, grid-based layout of route cards (with images of cars/cities, route names like "Такси Краснодар - Донецк", and prices/ordering buttons), similar to the provided competitor example.
+
+### 6. [NEW] `src/pages/Home.jsx`
+- Move homepage specific sections (Hero, Trust, RoutesPreview, Services `id="fleet"`, Masters `id="about"`, Reviews, CtaForm `id="contacts"`) here.
+
+## Verification Plan
+1. Start dev server.
+2. Verify all navigation links, especially hash scrolling from the `/routes` page back to sections on the Home page.
+3. Check the rendering and responsiveness of the complex Hero Booking Form on mobile devices.
+4. Verify the smooth animation of the RoutesPreview on the Home page.
+5. Check the grid layout on the dedicated Routes page.

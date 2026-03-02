@@ -1,0 +1,9 @@
+# Fleet Update Tasks
+
+- [ ] Modify [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx) data array:
+  - [ ] Add `images` array replacing single `image` string for all classes.
+  - [ ] Add `Эконом` class data.
+  - [ ] Add `Стандарт` class data.
+- [ ] Refactor [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx) to use a sub-component (`ServiceCard`) to manage individual carousel state.
+- [ ] Implement image carousel logic (left/right arrows, dot indicators).
+- [ ] Update grid layout to beautifully display 5 cards.

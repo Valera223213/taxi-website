@@ -1,0 +1,68 @@
+# Dark Theme Restoration Tasks
+
+- [x] Revert `tailwind.config.js` to dark theme colors.
+- [x] Revert `App.jsx` root background and text colors to dark theme.
+- [x] Revert `Header.jsx` to dark theme styling (text, background, mobile menu).
+- [x] Revert `Hero.jsx`: Restore dark overlay and dark mode booking forms.
+- [x] Revert `Trust.jsx` and `RoutesPreview.jsx` back to dark backgrounds.
+- [x] Revert `Services.jsx` (Fleet) carousel cards back to dark UI.
+- [x] Revert `Masters.jsx` and `Reviews.jsx` to dark backgrounds and light text.
+- [x] Revert `CtaForm.jsx` to original dark design.
+- [x] Update Hero section buttons: green background and update text to `Зафиксировать цену и авто`.
+- [x] Update phone number to `+79782757907` and configure WhatsApp, Telegram, and Max links to use this number.
+- [x] Update Max messenger links to redirect to the specific provided URL.
+- [x] Add SEO text block (Междугородние трансферы...) to the bottom of the Home page above the footer.
+- [x] Move "Популярные направления" marquee to the Hero section, resizing it and placing it below the booking forms.
+- [x] Update the fleet list in "Наши автомобили" with 20 specific requested vehicles and their specs.
+- [x] Replace initial-based driver icons with actual photos in the "Наши водители" section.
+- [x] Replace initial-based passenger icons with actual photos in the "Оценки наших пассажиров" section.
+- [x] Migrate Fleet carousel from custom Framer Motion drag physics to standard `Swiper` for native touch mechanics.
+- [x] Upgrade "Междугороднее такси Крыма и Юга России" Hero text to a premium solid pulsating badge.
+- [x] Redesign Header Logo: Replaced the outdated SVG with a custom-built, highly-detailed aerodynamic vector taxi silhouette alongside modern high-contrast typography ("ЮГ" bold/white, "ОК" thin/accent) with an animated neon shine sweep.
+
+# SEO Route Implementations
+
+- [x] Create centralized `src/data/routesData.js` with detailed route info, SEO text, and class pricing.
+- [x] Create dynamic `src/pages/RouteDetailPage.jsx` template matching competitor layout.
+- [x] Update `src/pages/RoutesPage.jsx` to list routes using new data and `Link` components.
+
+# Admin Panel & Dynamic Routes (Backend Integration)
+
+- [x] Choose and initialize a backend provider (e.g., Supabase or Firebase).
+- [x] Set up the database schema for routes (id, title, description, prices, image_url, etc.).
+- [x] Configure storage bucket for image uploads.
+- [x] Update frontend to fetch routes from the backend instead of `routesData.js` in `RoutesPage.jsx` and `RouteDetailPage.jsx`.
+- [x] Build and integrate `PreFooter` component with rotating route cards and company links.
+- [x] Create a secure, authenticated `/admin` route.
+- [x] Build the Admin Dashboard UI (list of routes, edit/delete actions).
+- [x] Build the Route Editor Form with image upload functionality.
+- [x] Verify the complete CRUD flow.
+- [x] Implement dynamic routing for `/routes/:slug` in `src/App.jsx`.
+
+# Form Integration (Telegram & Live Chat)
+
+- [x] Choose integration method (Telegram).
+- [x] Set up the required access keys (Bot Token & Chat ID for Telegram).
+- [x] Connect `CtaForm.jsx` to send data to the Telegram Bot.
+- [x] Connect the `Hero.jsx` mobile booking form to the same Telegram Bot.
+- [x] Add loading states and success/error notifications to the forms.
+- [x] Setup a Live Chat Widget (Re:plain) that connects directly to the user's Telegram.
+
+# Deployment
+
+- [x] Choose a hosting provider (Vercel or Netlify recommended).
+- [x] Ensure all environment variables (.env) are prepared for production.
+- [x] Push code to a Git repository (GitHub).
+- [x] Connect repository to hosting provider and deploy.
+- [x] Connect custom domain (optional).
+
+# Performance Optimization
+
+- [x] Analyze bundle size and initial load bottlenecks.
+- [x] Implement lazy loading for images and heavy components.
+- [x] Optimize the Re:plain widget loading (defer or async).
+- [ ] Ensure Supabase queries are optimized and minimal on first load.
+
+# Additional Features
+
+- [x] Add Yandex Metrica Cookie Consent Banner.

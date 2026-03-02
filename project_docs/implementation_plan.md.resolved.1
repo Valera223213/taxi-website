@@ -1,0 +1,36 @@
+# Navigation and Header Update Plan
+
+The user requested:
+1. A navigation menu with sections: "Главная", "Маршруты", "Наши авто", "О компании", "Контакты".
+2. Active buttons for WhatsApp, Telegram, and MAX (or similar direct contact) at the very top of the site.
+
+## Proposed Changes
+
+### [NEW] `src/components/Header.jsx`
+- Create a sticky or fixed header component.
+- **Top Bar (Contact/Messengers):**
+  - Add icons/buttons for WhatsApp, Telegram, and a generic Phone/Max contact.
+  - Links will use standard `href` protocols (e.g., `https://wa.me/`, `https://t.me/`, `tel:`).
+- **Navigation Bar:**
+  - Add links: "Главная" (Hero), "Маршруты" (Services/new section), "Наши авто" (could link to Services for now, or new section), "О компании" (Trust/Masters), "Контакты" (CtaForm/Footer).
+  - Use smooth scrolling to these sections.
+
+### [MODIFY] Component IDs
+To make the navigation links work with smooth scrolling, I need to add `id` attributes to existing sections:
+- [Hero.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Hero.jsx): add `id="home"` ("Главная")
+- [Trust.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Trust.jsx): add `id="about"` ("О компании")
+- [Services.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Services.jsx): add `id="routes"` ("Маршруты" - we will repurpose or add to this) or `id="fleet"` ("Наши авто")
+- [Masters.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/Masters.jsx): could be part of "О компании"
+- [CtaForm.jsx](file:///c:/Users/baben/Desktop/TAXI/src/components/CtaForm.jsx) / `Footer`: add `id="contacts"` ("Контакты")
+
+*Note: Since we don't have dedicated "Маршруты" and "Наши авто" sections yet, I will map them to the closest existing sections (Services) for the prototype, and we can expand them later if needed.*
+
+### [MODIFY] [src/App.jsx](file:///c:/Users/baben/Desktop/TAXI/src/App.jsx)
+- Import and include `<Header />` at the top of the application.
+- Add spacing so the fixed header doesn't overlap the Hero section.
+
+## Verification Plan
+- Start the dev server.
+- Verify the header appears correctly on desktop and mobile (hamburger menu might be needed for mobile).
+- Click social icons to ensure they attempt to open new tabs/apps.
+- Click navigation links to ensure smooth scrolling to the correct sections.

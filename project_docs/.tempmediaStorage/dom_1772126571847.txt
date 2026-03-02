@@ -1,0 +1,35 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (171,45)<div  />
+	[1] (231,48)<div  />
+		[2] (231,48)<span >Юг-Ок />
+[3] (928,45)<button class='md:hidden text-slate-200 p-2' />
+Багаж
+2
+[4] (60,165)<button aria-label='Go to page 1' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[5] (126,165)<button aria-label='Go to page 2' class='h-2.5 rounded-full transition-all duration-300 w-8 bg-accent' />
+[6] (192,165)<button aria-label='Go to page 3' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[7] (236,165)<button aria-label='Go to page 4' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[8] (280,165)<button aria-label='Go to page 5' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[9] (324,165)<button aria-label='Go to page 6' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[10] (368,165)<button aria-label='Go to page 7' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[11] (412,165)<button aria-label='Go to page 8' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[12] (456,165)<button aria-label='Go to page 9' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[13] (500,165)<button aria-label='Go to page 10' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[14] (544,165)<button aria-label='Go to page 11' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[15] (588,165)<button aria-label='Go to page 12' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[16] (632,165)<button aria-label='Go to page 13' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[17] (676,165)<button aria-label='Go to page 14' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[18] (720,165)<button aria-label='Go to page 15' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[19] (764,165)<button aria-label='Go to page 16' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[20] (808,165)<button aria-label='Go to page 17' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[21] (852,165)<button aria-label='Go to page 18' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[22] (896,165)<button aria-label='Go to page 19' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+[23] (940,165)<button aria-label='Go to page 20' class='h-2.5 rounded-full transition-all duration-300 w-2.5 bg-white/20 hover:bg-white/40' />
+Гарантии спокойной поездки
+100% подача авто
+Если мы подтвердили заказ — машина будет у вашего выхода. Мы не отменяем поездки ради более выгодных заказов.
+
+</current_dom>

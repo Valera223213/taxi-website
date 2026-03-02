@@ -1,0 +1,47 @@
+[0] (159,23)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79782757907'>+7 (978) 275-79-07 />
+Юг-Ок
+[1] (757,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79782757907' />
+	[2] (762,23)<span >WhatsApp />
+[3] (820,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/+79782757907' />
+	[4] (826,23)<span >Telegram />
+[5] (873,23)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c' />
+	[6] (878,23)<span >Max />
+[7] (167,90)<div  />
+	[8] (194,90)<div  />
+		[9] (177,90)<span >ЮГ />
+		[10] (196,90)<span >- />
+		[11] (213,90)<span >ОК />
+		[12] (100,90)<div  />
+[13] (549,90)<a class='hover:text-accent transition-colors' href='/'>Главная />
+[14] (604,90)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+[15] (665,90)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+[16] (728,90)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+[17] (789,90)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+[18] (863,90)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+Междугороднее такси Крыма и Юга России
+[19] (674,285)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide' />
+[20] (674,322)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all placeholder-slate-500' placeholder='Например: Аэропорт' />
+[21] (795,285)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide' />
+[22] (795,322)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all placeholder-slate-500' placeholder='Например: Ялта' />
+[23] (674,372)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide' />
+[24] (674,410)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all' />
+[25] (795,372)<label class='block text-xs font-semibold text-slate-300 mb-1 uppercase tracking-wide' />
+[26] (795,409)<select class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all appearance-none' />
+[27] (654,477)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Ваше имя' />
+[28] (734,477)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Телефон *' />
+[29] (815,477)<input class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500' placeholder='Email' />
+[30] (734,555)<textarea class='w-full px-4 py-2.5 bg-surface/50 border border-white/10 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-slate-500 resize-none' placeholder='Комментарий (рейс, количество пассажиров, детские кресла)' />
+[31] (622,635)<input class='mt-1 shrink-0 accent-accent' id='agree' />
+[32] (740,638)<label class='text-[11px] text-slate-400 leading-tight' />
+	[33] (673,645)<a class='text-accent hover:underline' href='#' />
+	[34] (770,645)<a class='text-accent hover:underline' href='#' />
+[35] (734,702)<button class='w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl transition-colors shadow-[0_0_20px_-5px_rgba(5,150,105,0.5)] mt-4 text-lg tracking-wide uppercase flex items-center justify-center gap-3' />
+[36] (645,844)<div  />
+	[37] (643,844)<span  />
+	[38] (688,844)<span  />
+[39] (743,844)<div  />
+	[40] (741,844)<span  />
+	[41] (794,844)<span  />
+[42] (829,844)<div  />
+	[43] (827,844)<span  />
+	[44] (861,844)<span  />

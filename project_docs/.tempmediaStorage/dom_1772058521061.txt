@@ -1,0 +1,46 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,808)<div  />
+	[1] (159,22)<a class='flex items-center gap-2 text-lg font-bold text-white hover:text-accent transition-colors' href='tel:+79782757907'>+7 (978) 275-79-07 />
+	Юг-Ок
+	[2] (757,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#25D366]/10 text-[#25D366] rounded-full hover:bg-[#25D366] hover:text-white transition-colors' href='https://wa.me/79782757907' />
+		[3] (762,22)<span >WhatsApp />
+	[4] (820,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-[#0088cc]/10 text-[#0088cc] rounded-full hover:bg-[#0088cc] hover:text-white transition-colors' href='https://t.me/+79782757907' />
+		[5] (826,22)<span >Telegram />
+	[6] (873,22)<a class='flex items-center gap-1.5 px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full hover:bg-purple-500 hover:text-white transition-colors' href='https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c' />
+		[7] (878,22)<span >Max />
+	[8] (155,84)<div  />
+		[9] (173,86)<div  />
+			[10] (173,86)<span >Юг-Ок />
+	[11] (549,84)<a class='hover:text-accent transition-colors' href='/'>Главная />
+	[12] (604,84)<a class='hover:text-accent transition-colors ' href='/routes'>Маршруты />
+	[13] (665,84)<a class='hover:text-accent transition-colors' href='/#fleet'>Наши авто />
+	[14] (728,84)<a class='hover:text-accent transition-colors' href='/#about'>О компании />
+	[15] (789,84)<a class='hover:text-accent transition-colors' href='/#contacts'>Контакты />
+	[16] (863,84)<button class='px-5 py-2.5 bg-accent hover:bg-accent-hover text-white rounded-lg transition-transform hover:scale-105 shadow-[0_0_15px_-3px_rgba(217,119,6,0.6)] ml-4'>Заказать />
+	100% подача авто
+	Если мы подтвердили заказ — машина будет у вашего выхода. Мы не отменяем поездки ради более выгодных заказов.
+	За 24 часа до выезда
+	Вы получаете SMS с прямым номером водителя, маркой и госномером авто. Никакой неопределенности в день вылета.
+	0 ₽ за ожидание
+	Мы сами отслеживаем задержки рейсов и поездов. Водитель будет ждать вас столько, сколько нужно, без доплат.
+	Водители, которым доверяют
+	Алексей
+	Стаж
+	15 лет
+	Мастер горных дорог
+	Знает каждый поворот на серпантине Ялта — Севастополь. Его пассажиров не укачивает, а поездка проходит незаметно за созерцанием видов.
+	Дмитрий
+	Стаж
+	12 лет
+	Специалист по логистике
+	Знает тайные подъезды к закрытым санаториям ЮБК. Довезет до дверей корпуса, даже если навигатор «потерял» адрес.
+	Михаил
+	Стаж
+	18 лет
+	VIP-сопровождение
+	Идеальный выбор для VIP-встреч. Пунктуален до минуты, помогает с любым объемом багажа и гарантирует полную конфиденциальность разговоров.
+
+</current_dom>
