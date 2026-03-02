@@ -135,10 +135,10 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="text-4xl md:text-5xl font-bold leading-tight mb-5 text-white lg:hidden"
+                        className="text-[34px] sm:text-4xl md:text-5xl font-bold leading-[1.1] mb-3 text-white lg:hidden"
                     >
                         Доедете по фиксированной цене. <br />
-                        <span className="text-accent italic leading-relaxed inline-block mt-1">Без отмен и опозданий.</span>
+                        <span className="text-accent italic leading-tight inline-block mt-0.5">Без отмен и опозданий.</span>
                     </motion.h1>
 
                     {/* Desktop Paragraph */}
@@ -156,7 +156,7 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="text-[17px] text-slate-300 leading-relaxed lg:hidden mb-1 font-medium"
+                        className="text-[15px] sm:text-[17px] text-slate-300 leading-snug lg:hidden mb-4 font-medium"
                     >
                         Иномарки с кондиционером точно в срок. Встретим с табличкой, донесем багаж, везем плавно — на серпантинах не укачает.
                     </motion.p>
@@ -166,19 +166,32 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.5 }}
-                        className="lg:hidden mt-8 mb-4 flex flex-col gap-4"
+                        className="lg:hidden mt-2 mb-2 flex flex-col gap-4"
                     >
-                        {/* Phone Button */}
-                        <a href="tel:+79782757907" className="flex items-center justify-center gap-3 w-full bg-surface/80 backdrop-blur-md border border-white/10 p-4 rounded-2xl shadow-2xl hover:border-accent/50 transition-colors group">
-                            <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center group-hover:bg-accent transition-colors">
-                                <Phone className="text-accent group-hover:text-white transition-colors" size={24} />
-                            </div>
-                            <span className="text-2xl font-bold text-white tracking-wide">+7 (978) 275-79-07</span>
+                        {/* Mobile Messengers */}
+                        <div className="flex items-center gap-3 mb-1">
+                            <a href="https://wa.me/79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
+                                <img src="/images/whatsapp.png" alt="WhatsApp" className="w-10 h-10 object-contain" />
+                            </a>
+                            <a href="https://t.me/+79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
+                                <img src="/images/telegram.png" alt="Telegram" className="w-10 h-10 object-contain" />
+                            </a>
+                            <a href="https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
+                                <img src="/images/max.png" alt="Max" className="w-10 h-10 object-contain" />
+                            </a>
+                        </div>
+
+                        {/* Order Button - prioritized above phone call on mobile */}
+                        <a href="#mobile-booking" className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl text-[17px] sm:text-[19px] uppercase tracking-wider shadow-[0_0_20px_-5px_rgba(5,150,105,0.5)] transition-all transform hover:scale-[1.02] flex items-center justify-center gap-3">
+                            Рассчитать стоимость <Car size={22} />
                         </a>
 
-                        {/* Order Button */}
-                        <a href="#mobile-booking" className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-5 rounded-2xl text-[19px] uppercase tracking-wider shadow-[0_0_20px_-5px_rgba(5,150,105,0.5)] transition-all transform hover:scale-[1.02] flex items-center justify-center gap-3 mt-2">
-                            Рассчитать стоимость <Car size={24} />
+                        {/* Phone Button */}
+                        <a href="tel:+79782757907" className="flex items-center justify-center gap-2 w-full bg-surface/80 backdrop-blur-md border border-white/10 py-3.5 px-4 rounded-xl shadow-2xl hover:border-accent/50 transition-colors group">
+                            <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center group-hover:bg-accent transition-colors">
+                                <Phone className="text-accent group-hover:text-white transition-colors" size={16} />
+                            </div>
+                            <span className="text-xl font-bold text-white tracking-wide">+7 (978) 275-79-07</span>
                         </a>
                     </motion.div>
                 </div>
