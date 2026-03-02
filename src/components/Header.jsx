@@ -188,19 +188,8 @@ const Header = () => {
                         </button>
                     </nav>
 
-                    {/* Mobile Actions (Icons + Menu Toggle) */}
-                    <div className="md:hidden flex items-center gap-2">
-                        <div className="flex items-center gap-3 mr-2">
-                            <a href="https://wa.me/79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/whatsapp.png" alt="WhatsApp" className="w-7 h-7 object-contain" />
-                            </a>
-                            <a href="https://t.me/+79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/telegram.png" alt="Telegram" className="w-7 h-7 object-contain" />
-                            </a>
-                            <a href="https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/max.png" alt="Max" className="w-7 h-7 object-contain" />
-                            </a>
-                        </div>
+                    {/* Mobile Actions (Menu Toggle) */}
+                    <div className="md:hidden flex items-center">
                         <button
                             className="text-slate-200 p-1"
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

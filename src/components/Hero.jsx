@@ -168,30 +168,31 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.5 }}
                         className="lg:hidden mt-2 mb-2 flex flex-col gap-4"
                     >
-                        {/* Mobile Messengers */}
-                        <div className="flex items-center gap-3 mb-1">
-                            <a href="https://wa.me/79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/whatsapp.png" alt="WhatsApp" className="w-10 h-10 object-contain" />
-                            </a>
-                            <a href="https://t.me/+79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/telegram.png" alt="Telegram" className="w-10 h-10 object-contain" />
-                            </a>
-                            <a href="https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform flex justify-center items-center drop-shadow-md">
-                                <img src="/images/max.png" alt="Max" className="w-10 h-10 object-contain" />
+                        {/* Top Row: Messengers + Phone */}
+                        <div className="flex items-center gap-2 w-full">
+                            {/* Messengers */}
+                            <div className="flex items-center gap-2 shrink-0 bg-surface/40 backdrop-blur-md rounded-xl p-2 border border-white/5">
+                                <a href="https://wa.me/79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform">
+                                    <img src="/images/whatsapp.png" alt="WhatsApp" className="w-8 h-8 object-contain drop-shadow-md" />
+                                </a>
+                                <a href="https://t.me/+79782757907" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform">
+                                    <img src="/images/telegram.png" alt="Telegram" className="w-8 h-8 object-contain drop-shadow-md" />
+                                </a>
+                                <a href="https://max.ru/u/f9LHodD0cOKRGsPwyyH38wFRJXzuvqZlhXq10g7urwZmxvWE5cSmhXgel2c" target="_blank" rel="noreferrer" className="hover:scale-110 transition-transform">
+                                    <img src="/images/max.png" alt="Max" className="w-8 h-8 object-contain drop-shadow-md" />
+                                </a>
+                            </div>
+
+                            {/* Phone Button */}
+                            <a href="tel:+79782757907" className="flex-1 flex items-center justify-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-md border border-white/10 h-[48px] rounded-xl shadow-lg transition-colors group">
+                                <Phone className="text-accent group-hover:text-white transition-colors shrink-0" size={16} />
+                                <span className="text-[15px] sm:text-base font-bold text-white tracking-wide truncate">+7 (978) 275-79-07</span>
                             </a>
                         </div>
 
-                        {/* Order Button - prioritized above phone call on mobile */}
+                        {/* Order Button */}
                         <a href="#mobile-booking" className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl text-[17px] sm:text-[19px] uppercase tracking-wider shadow-[0_0_20px_-5px_rgba(5,150,105,0.5)] transition-all transform hover:scale-[1.02] flex items-center justify-center gap-3">
                             Рассчитать стоимость <Car size={22} />
-                        </a>
-
-                        {/* Phone Button */}
-                        <a href="tel:+79782757907" className="flex items-center justify-center gap-2 w-full bg-surface/80 backdrop-blur-md border border-white/10 py-3.5 px-4 rounded-xl shadow-2xl hover:border-accent/50 transition-colors group">
-                            <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center group-hover:bg-accent transition-colors">
-                                <Phone className="text-accent group-hover:text-white transition-colors" size={16} />
-                            </div>
-                            <span className="text-xl font-bold text-white tracking-wide">+7 (978) 275-79-07</span>
                         </a>
                     </motion.div>
                 </div>
