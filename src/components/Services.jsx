@@ -119,6 +119,9 @@ const Services = () => {
                         slidesPerView={1}
                         slidesPerGroup={1}
                         grabCursor={true}
+                        preloadImages={true}
+                        updateOnImagesReady={true}
+                        watchSlidesProgress={true}
                         breakpoints={{
                             1024: {
                                 slidesPerView: 4,
@@ -137,11 +140,7 @@ const Services = () => {
                     >
                         {cars.map((car, index) => (
                             <SwiperSlide key={car.id} className="h-auto">
-                                <motion.div
-                                    initial={{ opacity: 0, scale: 0.9 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.1 }}
+                                <div
                                     className="h-full bg-primary-dark border border-white/5 rounded-2xl overflow-hidden shadow-2xl hover:border-accent/30 hover:shadow-[0_0_30px_rgba(217,119,6,0.15)] transition-all flex flex-col pointer-events-none"
                                 >
                                     {/* Header Badge */}
@@ -187,7 +186,7 @@ const Services = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
