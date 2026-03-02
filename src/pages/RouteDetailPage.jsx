@@ -3,6 +3,7 @@ import CtaForm from '../components/CtaForm';
 import { CheckCircle2, Navigation, Phone, MessageCircle, Send } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { supabase } from '../lib/supabase';
+import fallbackData from '../lib/fallbackRoutes.json';
 
 const RouteDetailPage = () => {
     const { slug } = useParams();
@@ -15,27 +16,33 @@ const RouteDetailPage = () => {
         const fetchRouteData = async () => {
             setLoading(true);
             try {
-                // Fetch specific route
-                const { data: routeData, error: routeError } = await supabase
-                    .from('routes')
-                    .select('*')
-                    .eq('slug', slug)
-                    .single();
+                const timeoutPromise = new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 4000));
 
-                if (routeError) throw routeError;
+                const fetchPromise = async () => {
+                    const [routeResponse, allRoutesResponse] = await Promise.all([
+                        supabase.from('routes').select('*').eq('slug', slug).single(),
+                        supabase.from('routes').select('id, slug, title')
+                    ]);
+                    if (routeResponse.error) throw routeResponse.error;
+                    if (allRoutesResponse.error) throw allRoutesResponse.error;
+                    return { routeData: routeResponse.data, allData: allRoutesResponse.data };
+                };
+
+                const { routeData, allData } = await Promise.race([fetchPromise(), timeoutPromise]);
+
                 setRoute(routeData);
-
-                // Fetch all routes for popular directions
-                const { data: allData, error: allError } = await supabase
-                    .from('routes')
-                    .select('id, slug, title');
-
-                if (allError) throw allError;
                 setAllRoutes(allData || []);
 
             } catch (err) {
-                console.error("Error fetching route:", err);
-                setError(err);
+                console.warn("Using fallback route data:", err.message);
+                const fbRoutes = fallbackData.value || [];
+                const matchedRoute = fbRoutes.find(r => r.slug === slug);
+                if (matchedRoute) {
+                    setRoute(matchedRoute);
+                    setAllRoutes(fbRoutes.map(r => ({ id: r.id, slug: r.slug, title: r.title })));
+                } else {
+                    setError(err);
+                }
             } finally {
                 setLoading(false);
             }

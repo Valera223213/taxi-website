@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import fallbackData from '../lib/fallbackRoutes.json';
 
 const PreFooter = () => {
     const [routes, setRoutes] = useState([]);
@@ -9,8 +10,17 @@ const PreFooter = () => {
 
     useEffect(() => {
         const fetchRoutes = async () => {
-            const { data } = await supabase.from('routes').select('slug, title, image_url, prices').order('created_at', { ascending: true });
-            if (data) setRoutes(data);
+            try {
+                const fetchPromise = supabase.from('routes').select('slug, title, image_url, prices').order('created_at', { ascending: true });
+                const timeoutPromise = new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 4000));
+
+                const { data, error } = await Promise.race([fetchPromise, timeoutPromise]);
+                if (error || !data) throw error || new Error('No data');
+                setRoutes(data);
+            } catch (error) {
+                console.warn("Using fallback routes in PreFooter:", error.message);
+                setRoutes(fallbackData.value || []);
+            }
         };
         fetchRoutes();
     }, []);

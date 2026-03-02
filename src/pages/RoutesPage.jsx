@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { Phone, MessageCircle, Send } from 'lucide-react';
+import fallbackData from '../lib/fallbackRoutes.json';
 
 const RoutesPage = () => {
     const [routes, setRoutes] = useState([]);
@@ -11,17 +12,25 @@ const RoutesPage = () => {
     useEffect(() => {
         const fetchRoutes = async () => {
             try {
-                const { data, error } = await supabase
+                // Fetch with a 4-second timeout
+                const fetchPromise = supabase
                     .from('routes')
                     .select('*')
                     .order('created_at', { ascending: true });
 
+                const timeoutPromise = new Promise((_, reject) =>
+                    setTimeout(() => reject(new Error('Supabase request timed out')), 4000)
+                );
+
+                const { data, error } = await Promise.race([fetchPromise, timeoutPromise]);
+
                 if (error) throw error;
-                // Supabase returns image_url, map it to image if needed, or just use it directly
-                // Prices is still a JSONB object, so it works the same
-                setRoutes(data || []);
+                if (!data) throw new Error('No data returned');
+
+                setRoutes(data);
             } catch (error) {
-                console.error("Error fetching routes:", error);
+                console.warn("Using fallback routes due to error:", error.message);
+                setRoutes(fallbackData.value || []);
             } finally {
                 setLoading(false);
             }
