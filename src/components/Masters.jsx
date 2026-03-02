@@ -8,7 +8,7 @@ const drivers = [
         title: 'Мастер горных дорог',
         description: 'Знает каждый поворот на серпантине Ялта — Севастополь. Его пассажиров не укачивает, а поездка проходит незаметно за созерцанием видов.',
         icon: <MapPin className="text-accent mb-4" size={32} />,
-        image: 'https://i.pravatar.cc/150?img=11'
+        image: 'https://api.dicebear.com/7.x/notionists/svg?seed=Alexey&backgroundColor=f3f4f6'
     },
     {
         name: 'Дмитрий',
@@ -16,7 +16,7 @@ const drivers = [
         title: 'Специалист по логистике',
         description: 'Знает тайные подъезды к закрытым санаториям ЮБК. Довезет до дверей корпуса, даже если навигатор «потерял» адрес.',
         icon: <Award className="text-accent mb-4" size={32} />,
-        image: 'https://i.pravatar.cc/150?img=12'
+        image: 'https://api.dicebear.com/7.x/notionists/svg?seed=Dmitry&backgroundColor=f3f4f6'
     },
     {
         name: 'Михаил',
@@ -24,7 +24,7 @@ const drivers = [
         title: 'VIP-сопровождение',
         description: 'Идеальный выбор для VIP-встреч. Пунктуален до минуты, помогает с любым объемом багажа и гарантирует полную конфиденциальность разговоров.',
         icon: <Shield className="text-accent mb-4" size={32} />,
-        image: 'https://i.pravatar.cc/150?img=13'
+        image: 'https://api.dicebear.com/7.x/notionists/svg?seed=Mikhail&backgroundColor=f3f4f6'
     }
 ];
 
