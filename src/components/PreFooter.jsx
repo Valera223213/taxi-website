@@ -68,6 +68,7 @@ const PreFooter = () => {
                                                 <img
                                                     src={route.image_url}
                                                     alt={route.title}
+                                                    loading="lazy"
                                                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                                     onError={(e) => {
                                                         e.target.onerror = null;

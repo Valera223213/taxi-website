@@ -154,6 +154,7 @@ const Services = () => {
                                         <img
                                             src={car.image}
                                             alt={car.name}
+                                            loading="lazy"
                                             className="w-[200px] h-[120px] object-contain drop-shadow-2xl relative z-10 pointer-events-none select-none"
                                             draggable="false"
                                         />

@@ -13,10 +13,13 @@
     <script type="module" src="/src/main.jsx"></script>
     <script>
         window.replainSettings = { id: '0220c9ac-ba1d-406e-bc9f-c61659bf2b93' };
-        (function (u) {
-            var s = document.createElement('script'); s.async = true; s.src = u;
-            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })('https://widget.replain.cc/dist/client.js');
+        // Defer loading the chat widget to prioritize main content rendering
+        setTimeout(function () {
+            (function (u) {
+                var s = document.createElement('script'); s.async = true; s.defer = true; s.src = u;
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })('https://widget.replain.cc/dist/client.js');
+        }, 3000);
     </script>
 </body>
 

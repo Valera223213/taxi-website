@@ -1,11 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import { Loader2 } from 'lucide-react';
 import Header from './components/Header';
 import Home from './pages/Home';
-import RoutesPage from './pages/RoutesPage';
-import RouteDetailPage from './pages/RouteDetailPage';
 import PreFooter from './components/PreFooter';
-import AdminPage from './pages/AdminPage';
 import ScrollToTop from './components/ScrollToTop';
+
+// Lazy-loaded routes
+const RoutesPage = lazy(() => import('./pages/RoutesPage'));
+const RouteDetailPage = lazy(() => import('./pages/RouteDetailPage'));
+const AdminPage = lazy(() => import('./pages/AdminPage'));
 
 function App() {
   return (
@@ -14,12 +18,18 @@ function App() {
       <div className="min-h-screen bg-primary-dark font-sans text-slate-300 selection:bg-accent selection:text-white">
         <Header />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/routes" element={<RoutesPage />} />
-          <Route path="/routes/:slug" element={<RouteDetailPage />} />
-          <Route path="/admin" element={<AdminPage />} />
-        </Routes>
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center">
+            <Loader2 className="animate-spin text-accent w-10 h-10" />
+          </div>
+        }>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/routes" element={<RoutesPage />} />
+            <Route path="/routes/:slug" element={<RouteDetailPage />} />
+            <Route path="/admin" element={<AdminPage />} />
+          </Routes>
+        </Suspense>
 
         {/* Pre-Footer Section for additional links & rotating routes */}
         <PreFooter />
